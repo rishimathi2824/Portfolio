@@ -14,7 +14,7 @@ const profile = {
   phone: "(858) 241-1288",
   linkedin: "https://www.linkedin.com/in/rishimathi",
   github: "https://github.com/rishimathi2824?tab=repositories", //
-  picture: "/profile.svg", // ← drop your photo in /public and point here (e.g. "/me.jpg")
+  picture: "/rishi_headshot.jpg", // ← drop your photo in /public and point here (e.g. "/me.jpg")
   resumeFile: "/resume.pdf", // ← drop your resume PDF in /public to enable the download button
 };
 
