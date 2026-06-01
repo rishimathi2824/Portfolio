@@ -235,7 +235,7 @@ export default function Portfolio() {
       <header id="top" className="hero">
         <div className="wrap hero-grid">
           <div className="reveal" style={{ animationDelay: "0.05s" }}>
-            <div className="eyebrow">Portfolio · Data &amp; Analytics</div>
+            <div className="eyebrow"></div>
             <h1>
               {profile.name.split(" ")[0]}{" "}
               <span className="accent">{profile.name.split(" ").slice(1).join(" ")}</span>
