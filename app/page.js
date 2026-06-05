@@ -126,7 +126,7 @@ const projects = [
       "Quantified KPIs including delinquency (6.06%) and activation (57%), optimizing risk monitoring.",
       "Engineered DAX measures tracking WoW performance — found a 28.8% revenue spike and 93% transaction contribution from Blue & Silver segments.",
     ],
-    link: "",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiMDczNWZiODYtMDU2ZC00YWYzLWJmMDYtZTEyODU5MWM1OTRkIiwidCI6IjhhMTk4ODczLTRmZWMtNGU3Ni04MTgyLWNhNDc5ZWRiYmQ2MCIsImMiOjZ9",
   },
   {
     name: "Customer Churn Prediction",
@@ -155,6 +155,20 @@ const projects = [
       "Built treemaps and statistical visuals to surface where the business wins and leaks.",
     ],
     link: "https://github.com/rishimathi2824/Supply-Chain-Analytics",
+  },
+
+  {
+    name: "Statistical Case Studies",
+    featured: false,
+    blurb: "Three graduate analytics cases: regression & hypothesis testing, pricing analytics, and Monte Carlo risk simulation.",
+    stack: ["Python", "statsmodels", "scipy", "NumPy"],
+    tags: ["Python", "Statistics", "Machine Learning"],
+    points: [
+      "Modeled NBA player salary with multiple regression specifications (log transforms, model comparison, residual diagnostics) and tested the 'hot hand' effect with paired t-tests (significant at p = 0.0256).",
+      "Analyzed pricing and sales data, including a name-your-own-price component, to surface the relationships driving sales outcomes.",
+      "Built a 100,000-run Monte Carlo simulation to evaluate four aircraft-insurance plans against cost-ceiling and downside-risk criteria.",
+    ],
+    link: "https://github.com/rishimathi2824/Statistical-case-studies",
   },
 ];
 
