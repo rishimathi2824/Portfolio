@@ -113,7 +113,7 @@ const projects = [
       "Designed and analyzed A/B tests and conversion funnels to optimize acquisition, improving ROAS to drive $380K in incremental profit.",
       "Benchmarked a neural-network model to capture non-linear signals and folded the strongest insights into an interpretable solution.",
     ],
-    link: "",
+    link: "https://github.com/rishimathi2824/Intuit-Project",
   },
   {
     name: "Credit Card Financial Dashboard",
@@ -143,16 +143,19 @@ const projects = [
   },
 
   // ── More projects (not featured). Add as many as you like below. ──
-  // Example template — copy this block, set featured:false, fill it in:
-  // {
-  //   name: "Project Name",
-  //   featured: false,
-  //   blurb: "One-line summary shown on the card.",
-  //   stack: ["Tool A", "Tool B"],
-  //   tags: ["Python", "SQL"],            // these power the filter buttons
-  //   points: ["Bullet one.", "Bullet two."],
-  //   link: "https://github.com/you/repo", // optional; leave "" to hide
-  // },
+  {
+    name: "Supply Chain & Retail Analytics",
+    featured: false,
+    blurb: "EDA on 180K retail orders — market share, fulfillment, delivery risk, profitability.",
+    stack: ["Python", "pandas", "seaborn"],
+    tags: ["Python", "EDA"],
+    points: [
+      "Analyzed market share, category contribution, inventory health, and order fulfillment across a global retail supply chain.",
+      "Quantified late-delivery risk, on-time rates, processing accuracy, and profit margin per order.",
+      "Built treemaps and statistical visuals to surface where the business wins and leaks.",
+    ],
+    link: "https://github.com/rishimathi2824/Supply-Chain-Analytics",
+  },
 ];
 
 /* ════════════════════════════════════════════════════════════
