@@ -113,7 +113,7 @@ const projects = [
       "Designed and analyzed A/B tests and conversion funnels to optimize acquisition, improving ROAS to drive $380K in incremental profit.",
       "Benchmarked a neural-network model to capture non-linear signals and folded the strongest insights into an interpretable solution.",
     ],
-    link: "https://github.com/rishimathi2824/Intuit-Project",
+    link: "https://github.com/rishimathi2824/Intuit---Targeting",
   },
   {
     name: "Credit Card Financial Dashboard",
@@ -139,7 +139,7 @@ const projects = [
       "Identified top churn drivers via permutation importance and translated results into retention triggers and monitoring KPIs.",
       "Quantified impact with a 60-month CLV model prioritizing cohorts up to 4.17% churn vs. a 2% baseline.",
     ],
-    link: "",
+    link: "https://github.com/rishimathi2824/Churn-Prediction",
   },
 
   // ── More projects (not featured). Add as many as you like below. ──
@@ -147,7 +147,7 @@ const projects = [
     name: "Supply Chain & Retail Analytics",
     featured: false,
     blurb: "EDA on 180K retail orders — market share, fulfillment, delivery risk, profitability.",
-    stack: ["Python", "pandas", "seaborn"],
+    stack: ["Python", "Pandas", "Seaborn"],
     tags: ["Python", "EDA"],
     points: [
       "Analyzed market share, category contribution, inventory health, and order fulfillment across a global retail supply chain.",
@@ -158,17 +158,72 @@ const projects = [
   },
 
   {
+    name: "Scalable & Cloud Analytics (Coursework)",
+    featured: false,
+    blurb: "Coursework exposure to distributed processing with PySpark, AWS EMR, and model training on Amazon SageMaker.",
+    stack: ["PySpark", "AWS", "SageMaker"],
+    tags: ["PySpark", "AWS", "Machine Learning"],
+    points: [
+      "Worked through distributed data processing with PySpark on HDFS — DataFrame transformations, the MapReduce word-count pattern, and large-scale EDA.",
+      "Covered batch Spark workloads on AWS EMR against data in S3, including a 1M-record job.",
+      "Followed the end-to-end Amazon SageMaker workflow: training, deploying, and tuning an XGBoost model with a real-time inference endpoint.",
+    ],
+    link: "https://github.com/rishimathi2824/AWS-Scalable-Analytics",
+  },
+
+  {
     name: "Statistical Case Studies",
     featured: false,
-    blurb: "Three graduate analytics cases: regression & hypothesis testing, pricing analytics, and Monte Carlo risk simulation.",
+    blurb: "Regression & hypothesis testing, pricing analytics, and Monte Carlo simulation — shown through charts, diagnostics, and methods.",
     stack: ["Python", "statsmodels", "scipy", "NumPy"],
     tags: ["Python", "Statistics", "Machine Learning"],
     points: [
       "Modeled NBA player salary with multiple regression specifications (log transforms, model comparison, residual diagnostics) and tested the 'hot hand' effect with paired t-tests (significant at p = 0.0256).",
-      "Analyzed pricing and sales data, including a name-your-own-price component, to surface the relationships driving sales outcomes.",
+      "Analyzed pricing and name-your-own-price sales data to surface the relationships and significance behind pricing decisions.",
       "Built a 100,000-run Monte Carlo simulation to evaluate four aircraft-insurance plans against cost-ceiling and downside-risk criteria.",
     ],
-    link: "https://github.com/rishimathi2824/Statistical-case-studies",
+    link: "https://github.com/rishimathi2824/Statistics-Projects"
+  },
+
+  {
+    name: "Target Brazil Analysis",
+    featured: false,
+    blurb: "Tableau dashboards on 100K Brazilian e-commerce orders — revenue, profitability, and delivery performance.",
+    stack: ["Tableau", "SQL"],
+    tags: ["Tableau", "SQL", "Dashboards"],
+    points: [
+      "Analyzed 100,000 orders (2016–2018) generating $606,288 revenue and $121,258 profit to identify delay drivers, cancellations (80+ per month), and regional bottlenecks using Tableau dashboards.",
+      "Highlighted high-impact regions (e.g., São Paulo) and high-revenue categories, translating findings into recommendations to improve on-time delivery and fulfillment efficiency.",
+      "Built two dashboards — Revenue Analysis and Delivery Performance — on a seven-table Olist dataset joined via SQL.",
+    ],
+    link: "https://github.com/rishimathi2824/Target-Brazil-Analysis",
+  },
+  {
+    name: "Fraud Analytics (Graduate Coursework)",
+    featured: false,
+    blurb: "Large-scale fraud-detection pipeline: feature engineering, deduplication, feature selection, and binary classification.",
+    stack: ["Python", "pandas", "scikit-learn"],
+    tags: ["Python", "Machine Learning"],
+    points: [
+      "Worked through a fraud-detection pipeline on ~1M records with 3,000+ engineered variables, reduced via deduplication to a leaner modeling set.",
+      "Applied feature selection and trained/evaluated binary classification models to separate fraudulent from legitimate activity.",
+      "Covered the full applied workflow — data exploration, variable creation, model building, and performance evaluation — on real-scale data.",
+    ],
+  },
+  
+
+  {
+    name: "Pentathlon NPTB Personalization",
+    featured: false,
+    blurb: "Per-customer promotional-message targeting via two-stage expected-profit modeling across four ML model families.",
+    stack: ["Python", "XGBoost", "scikit-learn"],
+    tags: ["Python", "Machine Learning", "Growth"],
+    points: [
+      "Built a next-product-to-buy pipeline: a purchase-probability classifier and an order-size regression combine into an expected-profit estimate per customer per message.",
+      "Trained and tuned logistic regression, neural networks, random forests, and XGBoost, selecting the final model on test-set fit (AUC, RMSE, gains curves).",
+      "Personalizing the message improved expected profit by ~14% over the best single message and ~24% over the random status quo, scaling to large absolute gains on a 5M-customer blast.",
+    ],
+    link: "https://github.com/rishimathi2824/Pentathlon-Personalization",
   },
 ];
 
