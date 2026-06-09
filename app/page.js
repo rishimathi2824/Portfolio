@@ -109,9 +109,9 @@ const projects = [
     stack: ["Python", "Regression", "A/B Testing"],
     tags: ["Python", "A/B Testing", "Growth"],
     points: [
-      "Built regression-based propensity models and automated Python pipelines to forecast upgrade likelihood across 75,000 small-business customers.",
-      "Designed and analyzed A/B tests and conversion funnels to optimize acquisition, improving ROAS to drive $380K in incremental profit.",
-      "Benchmarked a neural-network model to capture non-linear signals and folded the strongest insights into an interpretable solution.",
+      "Built regression-based propensity models and automated Python/SQL pipelines to forecast upgrade likelihood across 75,000 small-business customers.",
+      "Designed and analyzed A/B tests to validate lift and tune targeting thresholds, translating results into a repeatable campaign strategy that drove $380K in incremental profit.",
+      "Benchmarked a neural-network model to capture non-linear signals and folded the strongest insights into an interpretable solution to improve targeting quality and stakeholder trust.",
     ],
     link: "https://github.com/rishimathi2824/Intuit---Targeting",
   },
@@ -131,13 +131,13 @@ const projects = [
   {
     name: "Customer Churn Prediction",
     featured: true,
-    blurb: "Compared ML churn models on 39K customers and built a 60-month CLV model.",
+    blurb: "Weighted churn model on 39K customers with a 60-month CLV impact model.",
     stack: ["Python", "Logistic Regression", "Neural Nets"],
     tags: ["Python", "Machine Learning", "Growth"],
     points: [
-      "Built and compared churn models on 39,000 customers, calibrating to a 2% base rate and selecting the best holdout performer.",
-      "Identified top churn drivers via permutation importance and translated results into retention triggers and monitoring KPIs.",
-      "Quantified impact with a 60-month CLV model prioritizing cohorts up to 4.17% churn vs. a 2% baseline.",
+      "Built a weighted logistic-regression churn model on 39,000 customers calibrated to a 2% base rate, captured non-linear effects via a neural-network benchmark, and identified top churn drivers through permutation importance.",
+      "Designed a data-driven retention strategy and 60-month CLV impact model, prioritizing cohorts with churn up to 4.17% vs. a 2% baseline and validating offer economics with 8% annual growth and a 10% discount rate.",
+      "Translated churn drivers into a targeted retention playbook (device upgrades, overage-plan adjustments, proactive service-quality outreach, segment offers), sizing expected churn reduction across priority cohorts.",
     ],
     link: "https://github.com/rishimathi2824/Churn-Prediction",
   },
@@ -150,17 +150,17 @@ const projects = [
     stack: ["Python", "Pandas", "Seaborn"],
     tags: ["Python", "EDA"],
     points: [
-      "Analyzed market share, category contribution, inventory health, and order fulfillment across a global retail supply chain.",
-      "Quantified late-delivery risk, on-time rates, processing accuracy, and profit margin per order.",
-      "Built treemaps and statistical visuals to surface where the business wins and leaks.",
+      "Built an exploratory analysis of a global retail supply chain (~180,000 orders) in Python, examining market share, category contribution, inventory health, and order fulfillment to surface operational and profitability insights.",
+      "Quantified late-delivery risk, on-time and processing-accuracy rates, and profit margin per order, pinpointing where the supply chain leaks volume and margin.",
+      "Built treemaps and statistical visualizations to translate operational metrics into stakeholder-ready findings on supply-chain performance.",
     ],
     link: "https://github.com/rishimathi2824/Supply-Chain-Analytics",
   },
 
   {
-    name: "Scalable & Cloud Analytics (Coursework)",
+    name: "Scalable & Cloud Analytics",
     featured: false,
-    blurb: "Coursework exposure to distributed processing with PySpark, AWS EMR, and model training on Amazon SageMaker.",
+    blurb: "Distributed processing with PySpark, AWS EMR, and model training on Amazon SageMaker.",
     stack: ["PySpark", "AWS", "SageMaker"],
     tags: ["PySpark", "AWS", "Machine Learning"],
     points: [
@@ -199,7 +199,7 @@ const projects = [
     link: "https://github.com/rishimathi2824/Target-Brazil-Analysis",
   },
   {
-    name: "Fraud Analytics (Graduate Coursework)",
+    name: "Fraud Analytics",
     featured: false,
     blurb: "Large-scale fraud-detection pipeline: feature engineering, deduplication, feature selection, and binary classification.",
     stack: ["Python", "pandas", "scikit-learn"],
@@ -227,7 +227,7 @@ const projects = [
   },
 
   {
-    name: "Experimentation & Profit-Driven Targeting (Coursework)",
+    name: "Experimentation & Profit-Driven Targeting",
     featured: false,
     blurb: "Designed a test-and-rollout email experiment: weighted logistic response modeling, power-based sizing, and profit-driven budget allocation.",
     stack: ["Python", "statsmodels", "pandas"],
