@@ -225,6 +225,34 @@ const projects = [
     ],
     link: "https://github.com/rishimathi2824/Pentathlon-Personalization",
   },
+
+  {
+    name: "Experimentation & Profit-Driven Targeting (Coursework)",
+    featured: false,
+    blurb: "Designed a test-and-rollout email experiment: weighted logistic response modeling, power-based sizing, and profit-driven budget allocation.",
+    stack: ["Python", "statsmodels", "pandas"],
+    tags: ["Python", "Statistics", "Growth"],
+    points: [
+      "Modeled credit-card offer response with a weighted logistic regression over product attributes and risk segments, predicting across the full design grid.",
+      "Sized a controlled test mailing with two-proportion power analysis, then blended pre-test and post-test predictions to cut uncertainty before committing budget.",
+      "Allocated the rollout in proportion to expected profit (response x lifetime value - cost) rather than raw response rate, favoring durable, higher-value customers.",
+    ],
+    link: "https://github.com/rishimathi2824/Profit-Driven-Targeting",
+  },
+
+  {
+    name: "Uplift Modeling & Ad Experimentation",
+    featured: false,
+    blurb: "Causal ad experiment plus propensity and uplift modeling to target the persuadable, across logistic, NN, random forest, and XGBoost.",
+    stack: ["Python", "XGBoost", "scikit-learn"],
+    tags: ["Python", "Machine Learning", "Growth"],
+    points: [
+      "Designed a 3-group control/treatment analysis to separate the ad's causal effect from the model's, lifting response from 5.7% to 21.5% and roughly doubling profit at fixed budget.",
+      "Built uplift models (treatment minus control) to target incremental buyers rather than likely buyers, worth ~$13.8K additional profit over a propensity approach on the best 30K of 120K customers.",
+      "Compared logistic regression, neural network, random forest, and XGBoost on gains, AUC, and incremental profit, and derived the profit-optimal targeting fraction from unit economics.",
+    ],
+    link: "https://github.com/rishimathi2824/Propensity-Uplift-Modeling",
+  },
 ];
 
 /* ════════════════════════════════════════════════════════════
