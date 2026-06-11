@@ -253,6 +253,20 @@ const projects = [
     ],
     link: "https://github.com/rishimathi2824/Propensity-Uplift-Modeling",
   },
+
+  {
+    name: "Snowflake ETL Pipeline",
+    featured: false,
+    blurb: "Multi-source ETL into Snowflake: CSV, XML, and external data staged, loaded, and joined into integrated analytical tables.",
+    stack: ["Snowflake", "Python", "SQL"],
+    tags: ["Snowflake", "ETL", "SQL"],
+    points: [
+      "Built an end-to-end ETL pipeline ingesting CSV purchase orders, XML invoices, and external reference data into a Snowflake warehouse using staging and COPY INTO.",
+      "Parsed semi-structured XML into typed tables and defined custom file formats for resilient, error-tolerant loading.",
+      "Integrated sources through joins, views, and materialized tables to produce query-ready analytical models.",
+    ],
+    link: "https://github.com/rishimathi2824/ETL-Pipeline",
+  },
 ];
 
 /* ════════════════════════════════════════════════════════════
