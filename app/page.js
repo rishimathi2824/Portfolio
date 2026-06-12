@@ -103,7 +103,7 @@ const education = [
 */
 const projects = [
   {
-    name: "Intuit QuickBooks Propensity Modeling",
+    name: "Intuit Next-Best-Offer Targeting",
     featured: true,
     blurb: "Regression propensity models + A/B testing that drove $380K in incremental profit.",
     stack: ["Python", "Regression", "A/B Testing"],
@@ -129,7 +129,7 @@ const projects = [
     link: "https://app.powerbi.com/view?r=eyJrIjoiMDczNWZiODYtMDU2ZC00YWYzLWJmMDYtZTEyODU5MWM1OTRkIiwidCI6IjhhMTk4ODczLTRmZWMtNGU3Ni04MTgyLWNhNDc5ZWRiYmQ2MCIsImMiOjZ9",
   },
   {
-    name: "Customer Churn Prediction",
+    name: "Customer Churn & Lifetime Value Analysis",
     featured: true,
     blurb: "Weighted churn model on 39K customers with a 60-month CLV impact model.",
     stack: ["Python", "Logistic Regression", "Neural Nets"],
@@ -172,7 +172,7 @@ const projects = [
   },
 
   {
-    name: "Statistical Case Studies",
+    name: "Statistical Modeling & Hypothesis Testing",
     featured: false,
     blurb: "Regression & hypothesis testing, pricing analytics, and Monte Carlo simulation — shown through charts, diagnostics, and methods.",
     stack: ["Python", "statsmodels", "scipy", "NumPy"],
@@ -186,7 +186,7 @@ const projects = [
   },
 
   {
-    name: "Target Brazil Analysis",
+    name: "Delivery Performance & Profitability Analysis",
     featured: false,
     blurb: "Tableau dashboards on 100K Brazilian e-commerce orders — revenue, profitability, and delivery performance.",
     stack: ["Tableau", "SQL"],
@@ -213,7 +213,7 @@ const projects = [
   
 
   {
-    name: "Pentathlon NPTB Personalization",
+    name: "Pentathlon Email Personalization",
     featured: false,
     blurb: "Per-customer promotional-message targeting via two-stage expected-profit modeling across four ML model families.",
     stack: ["Python", "XGBoost", "scikit-learn"],
@@ -241,7 +241,7 @@ const projects = [
   },
 
   {
-    name: "Uplift Modeling & Ad Experimentation",
+    name: "Mobile Game Player Targeting & Uplift ",
     featured: false,
     blurb: "Causal ad experiment plus propensity and uplift modeling to target the persuadable, across logistic, NN, random forest, and XGBoost.",
     stack: ["Python", "XGBoost", "scikit-learn"],
